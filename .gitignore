@@ -1,0 +1,119 @@
+# Swift/Xcode
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.xcodeproj/**/Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+
+# Pod files
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Cartfile.resolved
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+*.p8
+*.p12
+*.cer
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build artifacts
+*.app
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Local database files (development/testing only)
+*.db
+*.sqlite
+*.sqlite3
+dev-data/
+
+# Coverage reports
+coverage/
+*.lcov
+.coverage
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Personal financial data (NEVER commit)
+sample-data.csv
+real-transactions.csv
+test-data.json
+*.xls
+*.xlsx
+
+# API Keys and tokens (NEVER commit)
+api-keys.txt
+oauth-token.txt
+refresh-token.txt
+
+# Test artifacts
+test-results/
+test-reports/
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.cache/
+.config/
+.local/
